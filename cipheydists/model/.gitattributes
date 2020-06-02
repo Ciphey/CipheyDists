@@ -1,0 +1,2 @@
+cipher_detector.h5 filter=lfs diff=lfs merge=lfs -text
+english_sentence.h5 filter=lfs diff=lfs merge=lfs -text
