@@ -9,6 +9,7 @@ This is a collection of sample distributions for use in Ciphey's frequency analy
 | lcase.json | borrowed from https://en.wikipedia.org/wiki/Letter_frequency |
 
 ## Charsets
-| name          | description                |
-| ------------- | -------------------------- |
-| english.json  | characters used in English |
+| name          | description                          |
+| ------------- | ------------------------------------ |
+| english.json  | characters used in English           |
+| encoding.json | characters used in various encodings |
