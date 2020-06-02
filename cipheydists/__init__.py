@@ -7,3 +7,6 @@ def get_dist(name):
 
 def get_charset(name):
   return json.loads(pkgutil.get_data(__name__, os.path.join("charset", name) + ".json"))
+
+def get_dict(name):
+  return json.loads(pkgutil.get_data(__name__, os.path.join("dicts", name) + ".json"))
