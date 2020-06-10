@@ -1,6 +1,7 @@
 import json
 import os
 import pkgutil
+import sys
 
 def check_name(name: str):
   return '/' not in name and '\\' not in name
@@ -19,4 +20,6 @@ def get_list(name: str):
 
 def get_model(name: str):
   if check_name(name):
-    return pkgutil.get_data(__name__, os.path.join("model", name) + ".h5")
+    # The code for this was taken from the pkgutil docs
+    d = os.path.dirname(sys.modules[__name__].__file__)
+    return os.path.join(d, "model", name + ".h5")
