@@ -9,3 +9,10 @@
 *.index filter=lfs diff=lfs merge=lfs -text
 * !text !filter !merge !diff
 *.h5 filter=lfs diff=lfs merge=lfs -text
+cipheydists/dist/lcase.json filter=lfs diff=lfs merge=lfs -text
+cipheydists/charset/morse.json filter=lfs diff=lfs merge=lfs -text
+cipheydists/charset/encodings.json filter=lfs diff=lfs merge=lfs -text
+cipheydists/charset/english.json filter=lfs diff=lfs merge=lfs -text
+cipheydists/list/english1000.json filter=lfs diff=lfs merge=lfs -text
+cipheydists/list/english.json filter=lfs diff=lfs merge=lfs -text
+cipheydists/dist/twist.json filter=lfs diff=lfs merge=lfs -text

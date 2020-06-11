@@ -22,4 +22,4 @@ def get_model(name: str):
   if check_name(name):
     # The code for this was taken from the pkgutil docs
     d = os.path.dirname(sys.modules[__name__].__file__)
-    return os.path.join(d, "model", name + ".h5")
+    return os.path.join(d, "model", name + ".tflite")
