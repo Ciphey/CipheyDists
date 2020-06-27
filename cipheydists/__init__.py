@@ -21,3 +21,7 @@ def get_list(name: str):
 def get_model(name: str):
   if check_name(name):
     return pkgutil.get_data(__name__, os.path.join("model", name) + ".tflite")
+
+def get_brandon(name: str):
+  if check_name(name):
+    return json.loads(pkgutil.get_data(__name__, os.path.join("brandon", name) + ".json"))
