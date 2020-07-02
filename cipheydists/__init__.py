@@ -25,3 +25,8 @@ def get_model(name: str):
 def get_brandon(name: str):
   if check_name(name):
     return json.loads(pkgutil.get_data(__name__, os.path.join("brandon", name) + ".json"))
+
+def get_translate(name: str):
+  if check_name(name):
+    return json.loads(pkgutil.get_data(__name__, os.path.join("translate", name) + ".json"))
+
