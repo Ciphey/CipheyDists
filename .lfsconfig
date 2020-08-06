@@ -1,0 +1,2 @@
+[remote "origin"]
+	lfsurl = http://localhost:8080/CipheyDists
