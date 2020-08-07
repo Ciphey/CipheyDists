@@ -6,6 +6,3 @@ authors = ["Cyclic3 <cyclic3.git@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.5"
-
-[build-system]
-build-backend = "poetry.masonry.api"
