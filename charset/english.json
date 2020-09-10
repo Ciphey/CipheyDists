@@ -1,0 +1,6 @@
+{
+  "lcase": "abcdefghijklmnopqrstuvwxyz",
+  "ucase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "num": "0123456789",
+  "punc": ",.!?\"'/"
+}
