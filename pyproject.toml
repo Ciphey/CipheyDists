@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cipheydists"
-version = "0.3.26"
+version = "0.3.35"
 description = "A collection of distributions, character sets and dictionaries for use in ciphey"
 authors = ["Cyclic3 <cyclic3.git@gmail.com>"]
 
